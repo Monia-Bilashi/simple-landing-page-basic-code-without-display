@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body {
+    background-color: tomato;
+} */
+
+.container {
+    width: 95%;
+    background-color: #fff;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 480px;
+    margin-bottom: 200px;
+    background-color: tomato;
+    border-bottom: 10px dotted tomato;
+}
+
+.top-header {
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    background-color: tomato;
+    position: fixed;
+    /* border-bottom: 5px dashed black; */
+}
+
+.menu-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    /* background-color: teal; */
+    text-align: center;
+    float: left;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+}
+
+.menu-item {
+    float: right;
+    width: 70%;
+    height: 100%;
+    /* background-color: gray; */
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+.menu-item-list {
+    width: 100%;
+    /* background-color: rgb(77, 52, 52); */
+    height: 100%;
+    text-align: right;
+}
+
+.menu-item-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    /* background-color: #fff */
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.menu-item-list a:hover {
+    background-color: goldenrod;
+    color: white;
+    font-style: normal;
+}
+
+.btm-header {
+    height: 400px;
+    width: 100%;
+}
+
+.btm-header-box {
+    background-image: url('./image/banner.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-x: center;
+    background-position-y: center;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.btm-text {
+    color: antiquewhite;
+    background-color: tomato;
+    width: 70%;
+    margin: auto;
+    padding: 25px 10px;
+    opacity: .5;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.btm-text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px
+}
+
+.btm-text p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.btm-text a {
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: black;
+}
+
+.btm-text a:hover {
+    background-color: black;
+    color: #fff;
+    font-style: italic;
+}
+
+.main {
+    width: 100%;
+    /* height: 800px; */
+}
+
+.about {
+    width: 100%;
+    padding: 0px 0px 55px 0px;
+    /* text-align: center; */
+    /* height: 200px; */
+    /* background-color: rgba(237, 129, 84, 0.572); */
+    border-bottom: 9px dashed tomato;
+}
+
+.about-information {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 80px;
+}
+
+.about-information span {
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+}
+
+.about-information h1 {
+    /* background-color: red; */
+    width: 60%;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-information p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.about-display {
+    width: 70%;
+    /* background-color: red; */
+    /* padding: 30px 0px; */
+    margin: auto;
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+}
+
+.about-a-d {
+    width: 22%;
+    /* background-color: #fff; */
+    float: left;
+    margin-left: 52px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-a-d:hover,
+.about-user-f:hover,
+.about-gar:hover {
+    box-shadow: 0px 0px 4px 5px gray;
+}
+
+.about-a-d i,
+.about-user-f i,
+.about-gar i {
+    color: rgb(198, 97, 29);
+    font-size: 40px;
+}
+
+.about-a-d h3,
+.about-user-f h3,
+.about-gar h3 {
+    margin: 20px 0px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.about-a-d p,
+.about-user-f p,
+.about-gar p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.about-user-f {
+    width: 22%;
+    /* background-color: #fff; */
+    float: left;
+    margin-left: 52px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-gar {
+    width: 22%;
+    /* background-color: #fff; */
+    float: left;
+    margin-left: 52px;
+    text-align: center;
+    padding: 20px;
+}
+
+.service {
+    width: 100%;
+    /* background-color: rgba(246, 148, 106, 0.572); */
+    margin: auto;
+    padding: 40px 0px 70px 0px;
+    border-bottom: 9px dashed tomato;
+}
+
+.service-heading {
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.service-heading h1 {
+    text-transform: uppercase;
+}
+
+.service-box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+    padding-bottom: 150px;
+    /* background-color: red; */
+}
+
+.ser-box-one,
+.ser-box-two,
+.ser-box-three {
+    width: 26%;
+    /* background-color: #fff; */
+    margin: 0px 22px;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ser-box-one:hover,
+.ser-box-two:hover,
+.ser-box-three:hover {
+    box-shadow: inset 10px 13px 17px 3px rgb(57 53 51 / 84%);
+}
+
+.ser-box-one i,
+.ser-box-two i,
+.ser-box-three i {
+    color: red;
+    font-size: 25px;
+}
+
+.ser-box-one h3,
+.ser-box-two h3,
+.ser-box-three h3 {
+    margin: 25px 0px;
+}
+
+.ser-box-one p,
+.ser-box-two p,
+.ser-box-three p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.ser-box-one a,
+.ser-box-two a,
+.ser-box-three a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(104, 91, 188);
+    padding: 5px 10px;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.ser-box-one a:hover,
+.ser-box-two a:hover,
+.ser-box-three a:hover {
+    background-color: pink;
+    color: black;
+}
+
+.contact {
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(8, 65, 41); */
+    border-left: 20px double tomato;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(39, 33, 64, 0.994);
+    border-bottom: 10px solid tomato;
+    border-top: 5px solid tomato;
+    text-align: center;
+    padding: 50px 20px 30px;
+}
+
+.find-me {
+    width: 70%;
+    margin: auto;
+}
+
+.find-me h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.icon-footer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.icon-footer a {
+    color: rgb(188, 188, 194);
+    font-size: 25px;
+    padding: 2px 5px;
+}
+
+.icon-footer a :hover {
+    color: white;
+    background-color: blue;
+}
+
+.copyrights-footer {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
